@@ -7,6 +7,9 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+
+cask "adoptopenjdk"
+
 brew "ack"
 brew "automake"
 brew "openssl"
@@ -57,9 +60,9 @@ brew "tree"
 brew "unzip"
 brew "wget"
 brew "zsh"
+
 #Casks
 cask "gpg-suite"
-
 cask "spotify"
 cask "skype"
 cask "iterm2"
@@ -83,11 +86,11 @@ cask "appcleaner"
 cask "steam"
 cask "transmission"
 cask "teamviewer"
-cask "gitx"
 cask "microsoft-office"
 cask "pokerstars"
 cask "flycut"
 cask "battle-net"
+
 #MAS
 mas "1Password", id: 443987910
 mas "AdBlock", id: 1402042596
