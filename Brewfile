@@ -10,7 +10,10 @@ tap "homebrew/services"
 
 cask "adoptopenjdk"
 
+brew "source-highlight"
 brew "ack"
+brew "zsh-syntax-highlighting"
+brew "ccat"
 brew "automake"
 brew "openssl"
 brew "bison"
